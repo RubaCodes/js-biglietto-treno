@@ -21,7 +21,10 @@ if (userAge >=  overAge) {
 } else {
     price = distance * pricePerKm;
 }
-
 console.log(price);
 
+//troncamento alla seconda cifra decimale
 
+const finalPrice = Math.floor(price * 100) / 100;
+
+console.log(finalPrice);
