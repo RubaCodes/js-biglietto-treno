@@ -34,3 +34,10 @@ div {
     box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.432);
     font-weight: bold;
 }
+
+h1::before, h1::after{
+    content: "\f238";
+    font-family: "Font Awesome 6 Pro";
+    font-weight: 900;
+    padding: 0 20px;
+}
