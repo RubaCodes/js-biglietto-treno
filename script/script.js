@@ -29,8 +29,8 @@ console.log(price);
 
 //const finalPrice = Math.floor(price * 100) / 100; soluzione prettamente matematica
 
-const finalPrice = price.toFixed(2); //usando medtoto .toFixed
+const finalPrice = price.toFixed(2); //usando medtodoo .toFixed
 
 console.log(finalPrice);
 
-document.getElementById('finalPrice').innerHTML = finalPrice + '$';
+document.getElementById('finalPrice').innerHTML = finalPrice + ' $';
