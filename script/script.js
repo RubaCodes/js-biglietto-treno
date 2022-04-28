@@ -27,7 +27,9 @@ console.log(price);
 
 //troncamento alla seconda cifra decimale
 
-const finalPrice = Math.floor(price * 100) / 100;
+//const finalPrice = Math.floor(price * 100) / 100; soluzione prettamente matematica
+
+const finalPrice = price.toFixed(2); //usando medtoto .toFixed
 
 console.log(finalPrice);
 
