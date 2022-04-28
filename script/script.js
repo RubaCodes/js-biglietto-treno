@@ -28,3 +28,5 @@ console.log(price);
 const finalPrice = Math.floor(price * 100) / 100;
 
 console.log(finalPrice);
+
+document.getElementById('finalPrice').innerHTML = finalPrice + '$';
