@@ -33,4 +33,4 @@ const finalPrice = price.toFixed(2); //usando medtodoo .toFixed
 
 console.log(finalPrice);
 
-document.getElementById('finalPrice').innerHTML = finalPrice + ' $';
+document.getElementById('finalPrice').innerHTML = `Eta: ${userAge} anni , distanza: ${distance} Km , Prezzo finale: ${finalPrice} $` ;
