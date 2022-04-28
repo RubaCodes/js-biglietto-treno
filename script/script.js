@@ -2,9 +2,11 @@
 const distance = Number(prompt('Inserire la distanza dalla destinazione:'));
 //input age
 const userAge = Number(prompt('Inserire eta del passeggero:'));
+//log del prompt
+console.log(userAge, distance);
 //price per unit
 const pricePerKm = 0.21;
-console.log(userAge, distance);
+
 
 //parametri sconto
 const overAge = 65;
@@ -14,9 +16,9 @@ const underAgeDiscount = 0.8;
 
 //costo del biglietto senza arrotondamento
 let price;
-if (userAge >=  overAge) {
+if (userAge >= overAge) {
     price = distance * pricePerKm * overAgeDiscount;
-} else if(userAge < underAge){
+} else if (userAge < underAge) {
     price = distance * pricePerKm * underAgeDiscount;
 } else {
     price = distance * pricePerKm;
