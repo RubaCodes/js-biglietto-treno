@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 50px;
+    background: linear-gradient(to top left, #28b487, #7dd56f);
+    color: white;
+}
+
+.container {
+    width: 80%;
+    height: calc(100vh - 100px);
+    flex-direction: column;
+    gap: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.432);
+    overflow-y: auto;
+    text-align: center;
+}
+
