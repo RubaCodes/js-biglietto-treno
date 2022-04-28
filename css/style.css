@@ -26,4 +26,9 @@ body {
     overflow-y: auto;
     text-align: center;
 }
-
+div{
+    background-color: #172b2449;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.432);
+}
