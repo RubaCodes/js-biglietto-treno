@@ -37,7 +37,7 @@ div {
 
 h1::before, h1::after{
     content: "\f238";
-    font-family: "Font Awesome 6 Pro";
+    font-family: "Font Awesome 6 Free";
     font-weight: 900;
     padding: 0 20px;
 }
